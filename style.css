@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.ctn {
+    height: 80vh;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.but {
+    border: 0.5px solid black;
+    padding: 10px 40px;
+    background-color: rgb(145, 135, 135);
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    margin-top: 70px;
+}
+
+.search1:focus {
+    width: 170px;
+} 
+
+.search1 {
+    border-radius: 50px;
+    background-color: rgb(145, 135, 135);
+    width: 100px;
+}
+
+.but-last {
+    margin-top: 70px;
+    height: fit-content;
+    padding: 6px;
+    background-color: rgb(145, 135, 135);
+    color: white;
+}
+
+.search1:hover {
+    /* color: white; */
+    background-color: white;
+    cursor: pointer;
+}

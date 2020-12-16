@@ -8,22 +8,33 @@ body {
     margin: 0;
 }
 
+footer,
+.apple-photo,
+.qwert,
 .ctn {
+    display: flex;
+}
+
+.ctn {
+    flex-direction: column;
     height: 80vh;
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     background-size: cover;
-    display: flex;
+    text-align: center;
+}
+
+.qwert {
     justify-content: center;
 }
 
+.but1,
 .but {
-    border: 0.5px solid black;
+    border: 0.5px solid gray;
     padding: 10px 40px;
-    background-color: rgb(145, 135, 135);
-    width: fit-content;
-    height: fit-content;
+    background-color: rgb(155, 155, 155);
     color: white;
     margin-top: 70px;
+    background-image: linear-gradient(rgba(114, 106, 106, 0.7) 50%, rgba(114, 106, 106, 1) 50%);
 }
 
 .search1:focus {
@@ -32,20 +43,74 @@ body {
 
 .search1 {
     border-radius: 50px;
-    background-color: rgb(145, 135, 135);
-    width: 100px;
+    height: 25px;
+    width: 130px;
+    background: url(https://raw.githubusercontent.com/abrormukimov/apple-page/master/images/search.png) no-repeat;
+    background-size: 12px;
+    background-position: 5px center;
+    outline: none;
+}
+
+.but1 {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .but-last {
     margin-top: 70px;
-    height: fit-content;
-    padding: 6px;
+    padding: 8px;
     background-color: rgb(145, 135, 135);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.5px gray;
+    background-image: linear-gradient(rgba(128, 120, 120, 0.7) 50%, rgba(114, 106, 106, 1) 50%);
+}
+
+.search1:hover,
+.but1:hover,
+.but:hover {
+    cursor: pointer;
+}
+
+.title {
     color: white;
 }
 
-.search1:hover {
-    /* color: white; */
-    background-color: white;
-    cursor: pointer;
+.title2,
+.title1 {
+    width: 982px;
+    height: 95px;
 }
+
+.title3,
+.title1 {
+    margin-top: 30px;
+}
+
+.apple-photo img {
+    width: 337px;
+    height: 190px;
+}
+
+footer {
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.foot-p2,
+.foot-p {
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.foot-icon {
+    width: 12px;
+}
+
+/* * {
+    border: 1px solid black;
+} */

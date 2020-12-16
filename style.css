@@ -66,10 +66,10 @@ footer,
     background-image: linear-gradient(rgba(128, 120, 120, 0.7) 50%, rgba(114, 106, 106, 1) 50%);
 }
 
-.search1:hover,
 .but1:hover,
 .but:hover {
     cursor: pointer;
+    background-color: black;
 }
 
 .title {

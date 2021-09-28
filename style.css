@@ -27,18 +27,27 @@ footer,
     justify-content: center;
 }
 
+.but1:hover,
+.but:hover {
+    /* background-color: black; */
+    /* color: lin black; */
+    /* background: linear-gradient(rgba(41, 40, 40, 0.7)); */
+}
+
 .but1,
 .but {
     border: 0.5px solid gray;
     padding: 10px 40px;
-    background-color: rgb(155, 155, 155);
+    background-color: rgba(141, 133, 133);
     color: white;
     margin-top: 70px;
-    background-image: linear-gradient(rgba(114, 106, 106, 0.7) 50%, rgba(114, 106, 106, 1) 50%);
+    /* background-image: linear-gradient(rgba(114, 106, 106, 0.7) 50%, rgba(114, 106, 106, 1) 50%); */
 }
 
 .search1:focus {
     width: 170px;
+    background-color: white;
+    padding-left: 20px;
 } 
 
 .search1 {
@@ -87,6 +96,10 @@ footer,
     margin-top: 30px;
 }
 
+/* .title3:hover {
+    text-decoration: underline;
+} */
+
 .apple-photo img {
     width: 337px;
     height: 190px;
@@ -112,5 +125,5 @@ a {
 }
 
 /* * {
-    border: 1px solid black;
+    border: 1px solid red;
 } */
